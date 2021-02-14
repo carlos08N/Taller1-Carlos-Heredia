@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<htlm>
+	<head>
+		<title>FORMULARIO</title>
+	</head>
+	<body>
+		<h1>FORMULARIO</h1>
+
+		<form>
+			<p><label>Nombres: <input type="text" name="nombre"></label></p>
+			<p><label>Apellidos: <input type="text" name="apellido"></label></p>
+			<p><label>Direccion: <input type="text" name="direccion"></label></p>
+			<p><label>Telefono: <input type="number" name="telefono"></label></p>
+			<p><label>Correo Electronico: <input type="email" name="email"></label></p>
+			<p><label>Password: <input type="password" name="contraseña"></label></p>
+			<br>
+			
+			</br>
+			<h2>Elige si estas becado</h2>
+			<input type="checkbox" id="becado" name="becado" value="becado">
+			<label for="becado"> Becado</label><br>
+			
+			</br>
+			<p><label>Fecha de nacimiento: <input type="date" name="date"></label></p>
+			<p><label>Color distintivo: <input type="color" name="color"></label></p>
+			<p><label>Acerca de mi: <textarea id="acercademi" name="acercademi" rows="4" cols="50"></textarea></label></p>
+			<br>
+			
+			</br>
+			<h2>Elige tu genero</h2>
+			<input type="radio" id="hombre" name="gender" value="hombre">
+			<label for="hombre">Hombre</label><br>
+			<input type="radio" id="mujer" name="gender" value="mujer">
+			<label for="mujer">Mujer</label><br>
+			<input type="radio" id="otro" name="gender" value="otro">
+			<label for="otro">Otro</label>
+			<br>
+			
+			</br>
+			<p><label>Area: <select name="area" id="area"><option value="derecho">Derecho</option><option value="ingenieria">Ingenieria</option><option value="medicina">Medicina</option></label></p>
+			<p><input type="submit" value="Enviar datos"></p>
+		</form>
+	</body>
+
+</html>
